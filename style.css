@@ -25,7 +25,7 @@ img {
   background-color: #F4E6E8;
 }
 
-.products {
+.main {
   padding: 10px 20px;
 }
 
@@ -34,6 +34,7 @@ img {
   font-size: 1.25rem;
   margin-bottom: 10px;
   font-weight: 600;
+  padding: 20px 0px;
 }
 
 .products-cards {
@@ -44,11 +45,14 @@ img {
   box-shadow:
   0px 2px 8px rgba(0, 0, 0, 0.04),
   0px 8px 24px rgba(190, 91, 106, 0.10);
+  margin-bottom: 15px;
 }
+
 .products-arrow svg {
   transition: transform 0.3s ease;
   margin-right: 10px;
 }
+
 details[open] .products-arrow svg{
   transform: rotate(180deg);
 }
@@ -68,7 +72,7 @@ details[open] .products-arrow svg{
 }
 
 .products-info h3{
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #2F2F2F;
   margin-bottom: 0px;
@@ -115,4 +119,28 @@ details[open] .products-arrow svg{
   font-size: 12px;
   font-weight: 400;
   color: #BE5B6A;
+}
+
+.resumo h2 {
+  color: #2F2F2F;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 20px 0px;
+}
+
+.resumo-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.resumo-lista li {
+  background-color: #F4E6E8;
+  border-radius: 10px;
+  padding: 10px;
 }
